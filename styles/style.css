@@ -1,0 +1,26 @@
+html {
+  font-size: 16px;
+}
+body {
+  background-color: #57BC90;
+  background-color: hsla(0, 0%, 50%, 0.9);
+  font-family: 'Oswald';
+  font-weight: 300;
+}
+h1 {
+  font-weight: 400;
+  background-color: #A5A5AF;
+  color: #ffffff;
+  text-align: center;
+}
+p {
+  background-color: #77C9D4;
+}
+.intro {
+  display: block;
+  margin: 0PX auto;
+  text-align: center;
+}
+div.align-right {
+  text-align: right;
+}
