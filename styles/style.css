@@ -24,3 +24,9 @@ p {
 div.align-right {
   text-align: right;
 }
+footer {
+  background-color: #A5A5AF;
+  padding: 10px;
+  float: none;
+  clear: both;
+}
