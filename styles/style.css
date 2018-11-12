@@ -10,7 +10,7 @@ h1 {
   font-family: 'Noto Sans KR';
   font-weight: 400;
   font-size: 57.665px;
-  background-color: #A5A5AF;
+  background-color: #525257;
   color: #ffffff;
   text-align: center;
 }
@@ -21,6 +21,7 @@ h2 {
 h3 {
   font-family: 'K2D';
   font-size: 57.665px;
+  display: block;
 }
 p {
   text-indent: 20px;
@@ -35,17 +36,26 @@ p {
   margin: 0PX auto;
   text-align: center;
 }
-div.align-right {
-  text-align: right;
+div {
+  display: block;
+}
+div.core {
+  background-color: #77C9D4;
+  overflow: auto;
 }
 img.float-left {
   float: left;
   clear: both;
+  padding: 0 20px 20px 0;
+  margin:  0px auto;
+  display: block;
 }
 img.float-right {
   float: right;
   clear: both;
+  padding: 0 20px 20px 0;
 }
+
 footer {
   background-color: #A5A5AF;
   padding: 10px;
