@@ -6,6 +6,32 @@ body {
   background-color: #57BC90;
   background-color: hsla(0, 0%, 50%, 0.9);
 }
+.top-nav {
+  overflow: hidden;
+  background-color: #525257;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  text-decoration: none;
+}
+.top-nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17.086px;
+}
+.top-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.top-nav a.active {
+  background-color: #77C9D4;
+  color: white;
+}
 h1 {
   font-family: 'Noto Sans KR';
   font-weight: 400;
@@ -13,6 +39,7 @@ h1 {
   background-color: #525257;
   color: #ffffff;
   text-align: center;
+  margin: 5px;
 }
 h2 {
   font-family: 'K2D';
@@ -30,14 +57,24 @@ p {
   padding: 10px;
   display: block;
   clear: both;
+  margin: 10px;
 }
 .intro {
   display: block;
+  padding: 0;
   margin: 0PX auto;
   text-align: center;
 }
+ul.corelinks {
+  text-decoration: none;
+
+}
 div {
   display: block;
+}
+#top {
+  padding-top: 0;
+  margin: 0;
 }
 div.core {
   background-color: #77C9D4;
@@ -55,7 +92,14 @@ img.float-right {
   clear: both;
   padding: 0 20px 20px 0;
 }
-
+.back-to-top-img {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 1em;
+  display: block;
+  z-index: 10;
+}
 footer {
   background-color: #A5A5AF;
   padding: 10px;
@@ -64,4 +108,5 @@ footer {
   font-size: 17.086px;
   text-decoration: none;
   margin-top: 20px;
+  text-align: center;
 }
