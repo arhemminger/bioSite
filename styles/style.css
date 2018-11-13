@@ -37,6 +37,7 @@ body {
 .top-nav a.active {
   background-color: #77C9D4;
   color: white;
+  text-shadow: 1px 1px 0px black;
 }
 
 h1 {
