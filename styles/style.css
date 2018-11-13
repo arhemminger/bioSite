@@ -100,6 +100,13 @@ img.float-right {
   display: block;
   z-index: 10;
 }
+iframe {
+  padding: 10px;
+  clear: both;
+  border: none;
+  width: 560px;
+  height: 315px;
+}
 footer {
   background-color: #A5A5AF;
   padding: 10px;
